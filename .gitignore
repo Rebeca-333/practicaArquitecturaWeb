@@ -1,0 +1,34 @@
+# ── Dependencias Node ──
+node_modules/
+
+# ── Secretos y entorno ──
+.env
+.env.*
+!.env.example
+
+# ── Registros (logs) ──
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# ── Builds / cobertura ──
+dist/
+build/
+coverage/
+
+# ── Datos y dumps de base de datos ──
+*.sql.gz
+dump*.sql
+*.sqlite
+*.db
+
+# ── Sistema y editores ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Nota: opencode.json se versiona a propósito (configuración, no secreto)
